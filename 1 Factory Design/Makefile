@@ -11,7 +11,7 @@ TARGET = client
 TARGET_DEL = client.exe
 
 # Source files
-SRCS = client.cpp controllers/Bike.cpp controllers/Car.cpp controllers/Vehicle.cpp controllers/Vehicle_factory.cppp
+SRCS = client.cpp src/Bike.cpp src/Car.cpp src/Vehicle.cpp src/Vehicle_factory.cppp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)

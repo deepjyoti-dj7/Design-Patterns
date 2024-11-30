@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../models/Vehicle_factory.hpp"
+#include "../include/Vehicle_factory.hpp"
 
 Vehicle* VehicleFactory::getVehicle(std::string vehicleType){
     Vehicle* vehicle;
