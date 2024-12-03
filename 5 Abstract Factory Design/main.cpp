@@ -76,7 +76,7 @@ public:
 };
 
 int main() {
-    std::cout << "Enter your c machine OS" << std::endl;
+    std::cout << "Enter your machine OS" << std::endl;
     std::string osType;
     std::cin >> osType;
 
